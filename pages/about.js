@@ -27,7 +27,7 @@ export default function About() {
               <p>I have worked in a variety of internship and volunteering positions, and I am passionate about utilizing technology to make a positive impact in the world!</p>
               <p>For more details, check out my résumé below. Also feel free to <a className={styles.link} href="mailto:jacksonmoody@college.harvard.edu">reach out</a> if you have any questions or want to say hello!</p>
               <br />
-              <iframe src='/resume.pdf' width="100%" height="500px"></iframe>
+              <iframe src='/resume.pdf#toolbar=0&navpanes=0' width="100%" height="500px"></iframe>
             </div>
 
             <Link href="/">
