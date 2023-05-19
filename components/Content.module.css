@@ -9,7 +9,8 @@
     height: 60px;
     margin-top: 40px;
     margin-bottom: 60px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button:hover {
@@ -47,6 +48,7 @@
     font-weight: bolder;
     margin-top: 25px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .text {
@@ -54,6 +56,7 @@
     font-weight: 300;
     line-height: 40px;
     margin-left: auto;
+    text-align: center;
 }
 
 .list {
@@ -110,37 +113,11 @@
 }
 
 .rectangle {
-    margin-top: 150px;
-    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     width: 100%;
     height: 500px;
-}
-
-.rectanglemargins {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 100%;
-    height: 500px;
-}
-
-.rectanglesmall {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 100%;
-    height: 500px;
-}
-
-.rectanglexs {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 100%;
-    height: 250px;
 }
 
 .content {
@@ -162,3 +139,28 @@
     transform: none;
     visibility: visible;
 }
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 24;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    outline: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .box {
+        transform: translate(-50%, -25%);
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .box {
+      transform: translate(-50%, 0);
+    }
+  }
