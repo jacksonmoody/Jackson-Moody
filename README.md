@@ -1,8 +1,8 @@
 # Introduction
 
-Welcome! This is a website to showcase my personal portfolio of projects. Check out the most recent deployment at [jacksonmoody.com](https://jacksonmoody.com)!
+Welcome! This is a website to showcase my portfolio of projects. Check out the most recent deployment at [jacksonmoody.com](https://jacksonmoody.com)!
 
-## How to Use
+## Deployment
 
 To build this site, clone this repository and then run the following commands to deploy to GitHub Pages:
 
