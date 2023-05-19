@@ -13,87 +13,77 @@ export default function Projects() {
         {
             name: "Smart Alarm Clock",
             image: "https://i.imgur.com/UlsyO94.jpg",
-            link: "/alarm-clock"
+            link: "alarm-clock"
         },
         {
             name: "Macular Degeneration Headband",
             image: "https://i.imgur.com/IDqKcXZ.jpg",
-            link: "/headband"
+            link: "headband"
         },
         {
             name: "Mask Detection System",
             image: "https://i.imgur.com/jykYjhf.jpg",
-            link: "/mask-detection"
+            link: "mask-detection"
         },
         {
             name: "Drawing Robot",
             image: "https://i.imgur.com/XjSeZdh.png",
-            link: "/drawing-robot"
+            link: "drawing-robot"
         },
         {
             name: "Lifting Robot",
             image: "https://i.imgur.com/DXGPtI9.jpg",
-            link: "/lifting-robot"
+            link: "lifting-robot"
         },
         {
             name: "Random Interesting Thing Generator",
             image: "https://i.imgur.com/XSXoTtU.jpg",
-            link: "/random-generator"
+            link: "random-generator"
         },
         {
             name: "CovEducation Website",
             image: "https://i.imgur.com/FmgoTb0.jpg",
-            link: "/coveducation"
+            link: "coveducation"
         },
         {
             name: "City of Boston Analytics",
             image: "https://i.imgur.com/NL9m0hA.png",
-            link: "/boston-analytics"
+            link: "boston-analytics"
         },
         {
             name: "Harvard Club Q Guide",
             image: "https://i.imgur.com/YvYqxiE.jpg",
-            link: "/club-qguide"
+            link: "club-qguide"
         },
         {
             name: "Blocking Group Finder",
             image: "https://i.imgur.com/LS0hPTA.jpg",
-            link: "/blocking-finder"
+            link: "blocking-finder"
         },
         {
             name: "Soft Robotics Research",
             image: "https://i.imgur.com/3Z97Syw.jpg",
-            link: "/soft-robot-research"
-        },
-        {
-            name: "COVID Headband",
-            image: "https://i.imgur.com/MWUpFYj.jpg",
-            link: "/covid-headband"
-        },
-        {
-            name: "Temperature Screening Robot",
-            image: "https://i.imgur.com/knhQ2iT.jpeg",
-            link: "/temperature-robot"
+            link: "soft-robot-research"
         },
         {
             name: "Flashcard Robot",
             image: "https://i.imgur.com/OrwyW6O.jpg",
-            link: "/flashcard-robot"
+            link: "flashcard-robot"
         },
         {
             name: "Teleoperation App",
             image: "https://i.imgur.com/nr7atE2.jpg",
-            link: "/teleop-app"
+            link: "teleoperation"
         },
         {
             name: "Time Management App",
             image: "https://i.imgur.com/A12AJq8.jpg",
-            link: "/time-management"
+            link: "time-management"
         },
         {
             name: "BattleBot",
             image: "https://i.imgur.com/Kh0mPow.jpg",
-            link: "/battlebot"
+            link: "battlebot"
         },
     ]
 
