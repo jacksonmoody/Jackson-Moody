@@ -1,8 +1,7 @@
 const nextConfig = {
   basePath: '',
   images: {
-    unoptimized: true,
-    domains: ['i.ibb.co']
+    unoptimized: true
   }
 }
 

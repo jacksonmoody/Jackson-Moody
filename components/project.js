@@ -1,5 +1,4 @@
 import styles from './Project.module.css';
-import Image from 'next/image';
 import { useState } from 'react';
 import ModalPicker from './modalPicker';
 
@@ -15,7 +14,7 @@ export default function Project({ name, image, link }) {
         <>
             <div className={styles.project} onClick={() => setOpen(true)}>
                 <div className={styles.square}>
-                    <Image className={styles.image} src={image} alt={name} fill style={{ objectFit: "cover" }} />
+                    <img className={styles.image} src={image} alt={name} />
                 </div>
                 <h1 className={styles.text}>{name}</h1>
             </div>
