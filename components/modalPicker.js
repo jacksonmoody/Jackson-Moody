@@ -425,7 +425,7 @@ export default function ModalPicker({ open, handleClose, link }) {
                         <Grid item xs={12} sm={6}>
                             <div className={styles.text}>
                                 <p>During the robotics offseason, I chose to create a BattleBot to compete in a local featherweight BattleBots tournament. Having never created a BattleBot before, I struggled to create a robot with the necessary strength and resilience while simultaneously staying under the strict weight limits.</p>
-                                <p>However, I ultimately created a remote-controlled, dual-wheel robot that is capable of driving on both of its faces (face up and face down). The robot's primary weapon is a highspeed steel spinner that was custom machined in the local makerspace; overall I am very happy with how it turned out!</p>
+                                <p>However, I ultimately created a remote-controlled, dual-wheel robot that is capable of driving on both of its faces (face up and face down). The robot's primary weapon is a highspeed steel spinner that was custom machined in the local makerspace. Overall, I am very happy with how it turned out!</p>
                             </div>
                         </Grid>
                     </Grid>
