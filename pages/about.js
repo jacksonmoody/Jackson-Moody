@@ -26,18 +26,18 @@ export default function About() {
               <p>My name is Jackson Moody, and I'm a freshman at <a className={styles.link} href="https://college.harvard.edu/" target="_blank">Harvard College</a> studying mechanical engineering and computer science.</p>
               <p>I have worked in a variety of internship and volunteering positions, and I am passionate about utilizing technology to make a positive impact in the world!</p>
               <p>For more details, check out my résumé below. Also feel free to <a className={styles.link} href="mailto:jacksonmoody@college.harvard.edu">reach out</a> if you have any questions or want to say hello!</p>
-              <br />
-              <iframe src='files/resume.pdf#toolbar=0&navpanes=0' width="100%" height="500px"></iframe>
             </div>
-
-            <Link href="/">
-              <button className={styles.button}>Return Home</button>
-            </Link>
           </Grid>
           <Grid item xs={12} sm={3} order={{ xs: 2, sm: 3 }}>
             <div className={styles.circle}>
               <Image src={headshot} alt="Headshot" width={300} />
             </div>
+          </Grid>
+          <Grid item xs={12} order={{ xs: 4, sm: 4 }} mt={6}>
+          <Link href="/">
+              <iframe src='files/resume.pdf#toolbar=0&navpanes=0' width="100%" height="1100px" frameBorder="0"></iframe>
+              <button className={styles.button}>Return Home</button>
+            </Link>
           </Grid>
         </Grid>
       </div>
