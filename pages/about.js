@@ -4,7 +4,7 @@ import Header from '../components/header'
 import styles from '../components/Content.module.css'
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import headshot from '../public/images/headshot.jpg';
+import headshot from '../public/images/headshot.jpeg';
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
           </Grid>
           <Grid item xs={12} sm={9} order={{ xs: 3, sm: 2 }}>
             <div className={styles.text}>
-              <p>My name is Jackson Moody, and I'm a freshman at <a className={styles.link} href="https://college.harvard.edu/" target="_blank">Harvard College</a> studying mechanical engineering and computer science.</p>
+              <p>My name is Jackson Moody, and I'm a sophomore at <a className={styles.link} href="https://college.harvard.edu/" target="_blank">Harvard College</a> studying mechanical engineering and computer science.</p>
               <p>I have worked in a variety of internship and volunteering positions, and I am passionate about utilizing technology to make a positive impact in the world!</p>
               <p>For more details, check out my résumé below. Also feel free to <a className={styles.link} href="mailto:jacksonmoody@college.harvard.edu">reach out</a> if you have any questions or want to say hello!</p>
             </div>

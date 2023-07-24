@@ -1,6 +1,6 @@
 import styles from './Home.module.css';
 import Image from 'next/image';
-import headshot from '../public/images/headshot.jpg';
+import headshot from '../public/images/headshot.jpeg';
 import Link from 'next/link';
 
 export default function Home() {
