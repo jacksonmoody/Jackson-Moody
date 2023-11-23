@@ -95,9 +95,8 @@
 .circle {
     border-radius: 50%;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
-    margin-bottom: 50px;
+    height: 250px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
